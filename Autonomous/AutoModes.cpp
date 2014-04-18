@@ -47,13 +47,6 @@ AutoModes::AutoModes()
 	m_Modes["Dos pelotas"].push_back(RobotCommand(CMD_INTAKES,		100,		0,		0,		false,	false,	-0.15,	-0.4,	false,		0, 			1));
 	m_Modes["Dos pelotas"].push_back(RobotCommand(CMD_FIRE,			100,		0,		0,		true,	true,	0,		0,		false,		0, 			5));
 	
-//	m_Modes["Ballz deep"].push_back(RobotCommand(CMD_INTAKES,		96,	0,		0,		true,	true,	0,		0,		true,		0, 			0.5));
-//	m_Modes["Ballz deep"].push_back(RobotCommand(CMD_DRIVE_FIRE,	96,	80,		0,		true,	true,	0,		0,		true,		CONSTANT("HalfBackSetpoint"),			5));
-//	m_Modes["Ballz deep"].push_back(RobotCommand(CMD_SMART_REAR,	96,	0,		0,		true,	true,	0,		0,		false,		0, 			1.75));
-//	m_Modes["Ballz deep"].push_back(RobotCommand(CMD_FIRE_INTAKE,	96,	0,		0,		false,	true,	0.8,	0,		false,		0, 			5));
-//	m_Modes["Ballz deep"].push_back(RobotCommand(CMD_INTAKES,		96,	0,		0,		false,	false,	-0.15,	-0.4,	false,		0, 			1));
-//	m_Modes["Ballz deep"].push_back(RobotCommand(CMD_FIRE,			96,	0,		0,		true,	true,	0,		0,		false,		0, 			5));
-		
 	m_Modes["Hot Goal Left"].push_back(RobotCommand(CMD_DRIVE_DISTANCE,	24,			0,		0,		true,	true,	0,		0,		false,		0,			0.125));	
 	m_Modes["Hot Goal Left"].push_back(RobotCommand(CMD_INTAKES,		103,		0,		0,		true,	true,	0,		0,		false,		0, 			0.5));
 	m_Modes["Hot Goal Left"].push_back(RobotCommand(CMD_DRIVE_FIRE_SKIP,103,		85,		-15,	true,	true,	0.07,	0,		false,		0,			3.8));	
